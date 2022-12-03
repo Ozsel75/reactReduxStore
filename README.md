@@ -8,4 +8,7 @@
 
 ## How it looks
 
+Live on Netlify: 
+https://react-redux-storeoz.netlify.app/
+
 ![Screen](./screen.gif)
