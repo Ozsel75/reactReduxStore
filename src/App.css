@@ -1,0 +1,159 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.ui.grid.container {
+  margin-top: 65px;
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.kelle {
+  background: rgb(243, 197, 189);
+  background: -moz-linear-gradient(
+    top,
+    rgba(243, 197, 189, 1) 0%,
+    rgba(232, 108, 87, 1) 50%,
+    rgba(234, 40, 3, 1) 51%,
+    rgba(255, 102, 0, 1) 75%,
+    rgba(199, 34, 0, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(243, 197, 189, 1) 0%,
+    rgba(232, 108, 87, 1) 50%,
+    rgba(234, 40, 3, 1) 51%,
+    rgba(255, 102, 0, 1) 75%,
+    rgba(199, 34, 0, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(243, 197, 189, 1) 0%,
+    rgba(232, 108, 87, 1) 50%,
+    rgba(234, 40, 3, 1) 51%,
+    rgba(255, 102, 0, 1) 75%,
+    rgba(199, 34, 0, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.65);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 8;
+  width: 100%;
+  flex-wrap: nowrap;
+  min-width: 900px;
+}
+
+.shop {
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  color: #1800a3;
+  flex-wrap: nowrap;
+
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+
+.social {
+  font-size: 4rem;
+  margin-right: 10rem;
+  flex-wrap: nowrap;
+  min-width: 300px;
+}
+
+.fa-brands {
+  padding-right: 3rem;
+}
